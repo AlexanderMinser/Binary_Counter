@@ -3,12 +3,32 @@
 //Alexander Minser, 10/14/2017
 
 
+//gloabl variables
+int mostSigBit = 7;
+int midSigBit = 4;
+int lowSigBit = 2;
+
 void setup() {
-  // put your setup code here, to run once:
+  //setup output pins for LEDs
+  pinMode(mostSigBit, OUTPUT);
+  pinMode(midSigBit, OUTPUT);
+  pinMode(lowSigBit, OUTPUT);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  digitalWrite(mostSigBit, LOW);
+  digitalWrite(mostSigBit, LOW);
+  digitalWrite(mostSigBit, LOW);
+  int i;
+  
+  for (i = 0; i < 8; i++) {
+    
+  }
 
 }
+
+
+
+
+
