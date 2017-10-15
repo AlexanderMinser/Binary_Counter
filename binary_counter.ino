@@ -32,6 +32,7 @@ void loop() {
     digitalWrite(midSigBit, lastBit);
     lastBit = (i >> 2) & 1;
     digitalWrite(mostSigBit, lastBit);
+    delay(3000);
   }
 
 }
